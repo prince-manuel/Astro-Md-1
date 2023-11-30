@@ -1,6 +1,6 @@
 FROM node:lts-buster
 
-RUN git clone https://github.com/Astropeda/Astro-Md/root/Astro-Md/
-WORKDIR /root/Astro-Md/
+RUN git clone https://github.com/astropeda/astro-md/root/astro-md/
+WORKDIR /root/astro-md/
 RUN npm install
 CMD ["node", "index.js"]
